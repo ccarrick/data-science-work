@@ -1,6 +1,6 @@
 Getting Started: Diamonds
 ================
-(Your name here)
+Chris Carrick
 2020-
 
   - [Grading Rubric](#grading-rubric)
@@ -97,9 +97,10 @@ diamonds %>%
 
 **Observations**:
 
-  - Price increases \~exponentially with carat. Higher carat diamonds
-    don’t appear to follow the same relationship as lower carat ones and
-    price seems to very more substantially
+  - Price increases \~exponentially with carat for lower carat diamonds
+    (\~\<2 carats).
+  - Higher carat diamonds do generally fetch an higher price, though the
+    increase isn’t quite a rapid as lower carat diamonds.
 
 **q2** Create a visualization showing variables `carat`, `price`, and
 `cut` simultaneously. Experiment with which variable you assign to which
@@ -117,7 +118,8 @@ diamonds %>%
 **Observations**:
 
   - Ideal cuts most common for smaller carrat diamonds and has \~
-    exponential curve. Lower quality cuts as carat increases
+    exponential curve.
+  - Lower quality cuts are more common as carat increases
 
 # Communication
 
